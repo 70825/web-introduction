@@ -1,0 +1,33 @@
+table,th,td {
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img {
+    width: 180px;
+}
+
+td {
+    padding: 100px;
+}
+
+.rank {
+    width: 50px;
+}
+
+.title {
+    width: 150px;
+}
+
+.poster {
+    width: 180px;
+}
+
+.read {
+    width: 500px;
+}
+
+.click {
+    width: 50px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개</title>
+    <link rel="stylesheet" href="../css/introduce-myself.css">
+    <script type="text/javascript" src="../js/introduce-myself.js"></script>
+</head>
+<body>
+    <h2>자기소개</h2>
+
+    <ul>
+        <li>이름: 로건</li>
+        <li>사는 곳 : 관악구</li>
+        <li>안녕하세요 😀 저는 로건입니다. 만나서 반갑습니다.</li>
+    </ul>
+
+    <hr/>
+
+    <h2>인생 영화 BEST 5</h2>
+    <table>
+        <tr>
+            <th>순위</th>
+            <th>제목</th>
+            <th>포스터</th>
+            <th>줄거리</th>
+            <th>바로가기</th>
+        </tr>
+        <tr>
+            <th class="rank">1</th>
+            <th class="title">해리포터 시리즈</th>
+            <th class="poster"><img src="../images/harrypotter.jpeg"></th>
+            <th class="read">줄거리 볼드모트가 알버스 덤블도어의 무덤을 찾아가 죽음의 성물 3가지 중 하나인 "딱총나무 지팡이 (The Elder Wand)"를 얻고,
+                세베루스 스네이프가 새 교장이 된 호그와트는 여전히 실의에 빠진 채 침통한 분위기가 이어진다.</th>
+            <th class="click"><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=47528">클릭</a></th>
+        </tr>
+        <tr>
+            <th class="rank">2</th>
+            <th class="title">아바타2</th>
+            <th class="poster"><img src="../images/avatar2.jpeg"></th>
+            <th class="read">판도라 행성에서 '제이크 설리'와 '네이티리'가 이룬 가족이 겪게 되는 무자비한 위협과 살아남기 위해 떠나야 하는 긴 여정과 전투,
+                그리고 견뎌내야 할 상처에 대한 이야기</th>
+            <th class="click"><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=74977">클릭</a></th>
+        </tr>
+        <tr>
+            <th class="rank">3</th>
+            <th class="title">28일 후</th>
+            <th class="poster"><img src="../images/28_days_later.jpeg"></th>
+            <th class="read">침팬지들이 쇠사슬에 묶여 있거나 우리에 갇혀 있는 것을 발견한다.
+                침팬지들이 '분노 바이러스'에 감염되었다는 한 연구원의 공포 어린 경고를 무시한 채, 동물 권리 운동가들은 그들을 풀어주게 되고,
+                그 즉시 감염된 동물들로부터 피의 공격이 시작된다.</th>
+            <th class="click"><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=36342">클릭</a></th>
+        </tr>
+        <tr>
+            <th class="rank">4</th>
+            <th class="title">인터스텔라</th>
+            <th class="poster"><img src="../images/interstellar.jpeg"></th>
+            <th class="read">점점 황폐해져가는 지구를 대체할 인류의 터전을 찾기 위해
+                새롭게 발견된 웜홀을 통해 항성 간(Interstellar) 우주 여행을 떠나는 탐험가들의 모험</th>
+            <th class="click"><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=45290">클릭</a></th>
+        </tr>
+        <tr>
+            <th class="rank">5</th>
+            <th class="title">탑건: 매버릭</th>
+            <th class="poster"><img src="../images/top_gun_maverick.jpeg"></th>
+            <th class="read">세상을 떠난 그녀가 다시 돌아왔다.</th>
+            <th class="click"><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=81888">클릭</a></th>
+        </tr>
+    </table>
+
+    <hr/>
+
+    <div style="padding-left:200px">
+        <h2>방명록</h2>
+        <div>
+            <label>이름 :</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label>본인 취향 영화 : </label>
+            <div>
+                <div>
+                    <input type="checkbox" name="movie" value="해리포터 시리즈">
+                    <label>해리포터 시리즈</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="movie" value="아바타2">
+                    <label>아바타2</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="movie" value="28일 후">
+                    <label>28일 후</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="movie" value="인터스텔라">
+                    <label>인터스텔라</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="movie" value="탑건: 매버릭">
+                    <label>탑건: 매버릭</label>
+                </div>
+            </div>
+            <div>
+                <button type="button" onclick="go()">등록</button>
+                <button type="reset" onclick="reset()">취소</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
